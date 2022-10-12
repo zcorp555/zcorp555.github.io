@@ -1,0 +1,93 @@
+* {
+	padding: 0px;
+	margin-top: 7%;
+	margin-left: 7%;
+	margin-right: 5%;
+	margin-bottom: 0%;
+	font-family: sans-serif;
+}
+
+body {
+	background: url(imagenes/bg-p.jpg);
+	background-size: cover;
+	color: #22FFFF;
+	font-size: 16px;
+}
+.wrap {
+	padding: 0px;
+	width: 100%;
+	height: 95%;
+}
+
+.widget {
+	width: 50%;
+}
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+
+.fecha {
+	font-family: Oswald, Arial;
+	text-align: center;
+	font-size: 35px;
+	background: rgba(0,0,0,.1);
+	padding: 20px;
+	width: 100%;
+}
+.reloj {
+	font-family: Oswald, Arial;
+	width: 100%;
+	padding: 20px;
+	font-size: 50px;
+	text-align: center;
+	background: rgba(0,0,0,.1);
+
+}
+
+.reloj .caja-segundos {
+	display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+	font-size: 25px;
+	display: block;
+}
+.footer {
+	font-size: 20px;
+		color: blue;
+		display: flex;
+	justify-content: center;
+	flex-flow: column nowrap;
+	margin: -1px -1px -1px -1px;
+}
+.pie {
+	text-align: center;
+}
+	}
+		.pie a{
+			color:;
+			font-size: 15px;
+			letter-spacing: 5px;
+		}
+		.pie a:hover {
+			color: gray;
+		}
+		.developer {
+			color: rgb(0, 15, 230);
+		}
+		.developer a{
+			color: #3500C6;
+			text-decoration: none;
+		}
+		.developer a:hover {
+			color: rgb(112, 121, 249);
+		}
+		.developer:hover {
+			color: gray;
+		}
+.info {
+	color: red;
+	text-align: center;
+}
