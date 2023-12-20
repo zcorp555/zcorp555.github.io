@@ -311,3 +311,71 @@ input:checked + label .description {
  
     font-size: 20px;
 }
+
+
+@media (max-width: 1112px) {
+
+    .cards {
+        display: none;
+    }
+
+}
+
+@media (max-width: 840px) {
+    .enlaces a {
+        padding: 30px;
+    }
+
+    .content {
+        max-width: 840px;
+        
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .logo img {
+        width: 120px;
+        height: 55px;
+    }
+}
+
+@media (max-width: 693px) {
+    .enlaces a {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 608px) {
+    .enlaces a {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 535px) {
+   .navbar {
+    flex-direction: column;
+   }
+
+   .E-2 {
+    display: none;
+   }
+
+   .logo img {
+    margin: 0;
+   }
+
+   .E-1 {
+    margin-bottom: 10px;
+    word-spacing: 5px;
+   }
+
+}
