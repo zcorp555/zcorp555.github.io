@@ -379,3 +379,42 @@ input:checked + label .description {
    }
 
 }
+
+.patrimonio {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px !important;
+    border: solid rgb(107, 12, 196) 2px;
+    border-radius: 20px;
+    background-color: #00000056;
+
+}
+
+.imagen {
+    padding: 10px;
+}
+
+.imagen img {
+    width: 500px;
+    border-radius: 200px;
+    border: solid 3px #ffffff;
+}
+
+.text-22 h1 {
+    color: rgb(68, 238, 16);
+    text-shadow: 4px 4px 10px rgb(22, 87, 2);
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 80px;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.text-22 h2 {
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 30px;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+    color: rgb(107, 12, 196);
+}
