@@ -1,0 +1,86 @@
+.container {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+   
+}
+
+.skills {
+    text-align: right;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 25px; 
+   
+}
+
+.illustrator {
+    background-color: orangered;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.animateIllustrator {
+    animation: fillillustrator 2s forwards; 
+}
+
+
+.photoshop {
+    background-color: rgb(38, 79, 156);
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.animatePhotoshop {
+    animation: fillphotoshop 2s forwards;
+}
+
+.after-effects {
+    background-color: rgb(103, 38, 156);
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.animateAfterEF {
+      animation: fillafter-effects 2s forwards;
+}
+
+.adobe-indesign{
+    background-color: rgb(156, 38, 87);
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.animateIndesign {
+    animation: filladobe-indesign 1999ms forwards;
+}
+
+.picsart {
+    background: linear-gradient(90deg, rgba(190,0,189,1) 17%, rgba(107,17,190,1) 36%, rgba(101,37,210,1) 45%, rgba(74,27,219,1) 58%, rgba(78,28,218,1) 58%, rgba(49,20,231,1) 61%, rgba(22,140,233,1) 65%, rgba(0,232,255,1) 82%);
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.animatePicsart {
+     animation: fillpicsart 2s forwards;
+}
+
+@keyframes fillillustrator{
+    0%{width: 0;}
+    100%{width: 67%;}
+}
+
+@keyframes fillphotoshop{
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+
+@keyframes fillafter-effects{
+    0%{width: 0;}
+    100%{width: 33%;}
+}
+
+@keyframes filladobe-indesign{
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+
+@keyframes fillpicsart{
+    0%{width: 0;}
+    100%{width: 83%;}
+}
